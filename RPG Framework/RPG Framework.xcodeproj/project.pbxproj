@@ -26,6 +26,7 @@
 		87C2BAB01501D90000499F82 /* PRPGConstruction.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAA51501D90000499F82 /* PRPGConstruction.h */; };
 		87C2BAB11501D90000499F82 /* PRPGMultiplayerBattle.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAA61501D90000499F82 /* PRPGMultiplayerBattle.h */; };
 		87C2BAB21501D90000499F82 /* RPRGItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAA71501D90000499F82 /* RPRGItem.h */; };
+		87C2BAB61501DB2200499F82 /* CRPGBattleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAB51501DB2200499F82 /* CRPGBattleEvent.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,17 +52,18 @@
 		87C2BA901501D8EA00499F82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87C2BA921501D8EA00499F82 /* RPG_FrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPG_FrameworkTests.h; sourceTree = "<group>"; };
 		87C2BA931501D8EA00499F82 /* RPG_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPG_FrameworkTests.m; sourceTree = "<group>"; };
-		87C2BA9D1501D90000499F82 /* PRPGAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGAgent.h; path = ../PRPGAgent.h; sourceTree = "<group>"; };
-		87C2BA9E1501D90000499F82 /* PRPGAgentEvolutionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGAgentEvolutionRule.h; path = ../PRPGAgentEvolutionRule.h; sourceTree = "<group>"; };
-		87C2BA9F1501D90000499F82 /* PRPGAgentMove.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGAgentMove.h; path = ../PRPGAgentMove.h; sourceTree = "<group>"; };
-		87C2BAA01501D90000499F82 /* PRPGAgentMoveType.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGAgentMoveType.h; path = ../PRPGAgentMoveType.h; sourceTree = "<group>"; };
-		87C2BAA11501D90000499F82 /* PRPGAgentType.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGAgentType.h; path = ../PRPGAgentType.h; sourceTree = "<group>"; };
-		87C2BAA21501D90000499F82 /* PRPGBattle.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGBattle.h; path = ../PRPGBattle.h; sourceTree = "<group>"; };
-		87C2BAA31501D90000499F82 /* PRPGCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGCharacter.h; path = ../PRPGCharacter.h; sourceTree = "<group>"; };
-		87C2BAA41501D90000499F82 /* PRPGCharacterType.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGCharacterType.h; path = ../PRPGCharacterType.h; sourceTree = "<group>"; };
-		87C2BAA51501D90000499F82 /* PRPGConstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGConstruction.h; path = ../PRPGConstruction.h; sourceTree = "<group>"; };
-		87C2BAA61501D90000499F82 /* PRPGMultiplayerBattle.h */ = {isa = PBXFileReference; fileEncoding = 4; name = PRPGMultiplayerBattle.h; path = ../PRPGMultiplayerBattle.h; sourceTree = "<group>"; };
-		87C2BAA71501D90000499F82 /* RPRGItem.h */ = {isa = PBXFileReference; fileEncoding = 4; name = RPRGItem.h; path = ../RPRGItem.h; sourceTree = "<group>"; };
+		87C2BA9D1501D90000499F82 /* PRPGAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGAgent.h; path = ../PRPGAgent.h; sourceTree = "<group>"; };
+		87C2BA9E1501D90000499F82 /* PRPGAgentEvolutionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGAgentEvolutionRule.h; path = ../PRPGAgentEvolutionRule.h; sourceTree = "<group>"; };
+		87C2BA9F1501D90000499F82 /* PRPGAgentMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGAgentMove.h; path = ../PRPGAgentMove.h; sourceTree = "<group>"; };
+		87C2BAA01501D90000499F82 /* PRPGAgentMoveType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGAgentMoveType.h; path = ../PRPGAgentMoveType.h; sourceTree = "<group>"; };
+		87C2BAA11501D90000499F82 /* PRPGAgentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGAgentType.h; path = ../PRPGAgentType.h; sourceTree = "<group>"; };
+		87C2BAA21501D90000499F82 /* PRPGBattle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGBattle.h; path = ../PRPGBattle.h; sourceTree = "<group>"; };
+		87C2BAA31501D90000499F82 /* PRPGCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGCharacter.h; path = ../PRPGCharacter.h; sourceTree = "<group>"; };
+		87C2BAA41501D90000499F82 /* PRPGCharacterType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGCharacterType.h; path = ../PRPGCharacterType.h; sourceTree = "<group>"; };
+		87C2BAA51501D90000499F82 /* PRPGConstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGConstruction.h; path = ../PRPGConstruction.h; sourceTree = "<group>"; };
+		87C2BAA61501D90000499F82 /* PRPGMultiplayerBattle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRPGMultiplayerBattle.h; path = ../PRPGMultiplayerBattle.h; sourceTree = "<group>"; };
+		87C2BAA71501D90000499F82 /* RPRGItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPRGItem.h; path = ../RPRGItem.h; sourceTree = "<group>"; };
+		87C2BAB51501DB2200499F82 /* CRPGBattleEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPGBattleEvent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,14 +121,10 @@
 		87C2BA781501D8EA00499F82 /* RPG Framework */ = {
 			isa = PBXGroup;
 			children = (
-				87C2BA9D1501D90000499F82 /* PRPGAgent.h */,
-				87C2BA9E1501D90000499F82 /* PRPGAgentEvolutionRule.h */,
-				87C2BA9F1501D90000499F82 /* PRPGAgentMove.h */,
-				87C2BAA01501D90000499F82 /* PRPGAgentMoveType.h */,
-				87C2BAA11501D90000499F82 /* PRPGAgentType.h */,
+				87C2BAB51501DB2200499F82 /* CRPGBattleEvent.h */,
+				87C2BAB31501DACE00499F82 /* Agent */,
 				87C2BAA21501D90000499F82 /* PRPGBattle.h */,
-				87C2BAA31501D90000499F82 /* PRPGCharacter.h */,
-				87C2BAA41501D90000499F82 /* PRPGCharacterType.h */,
+				87C2BAB41501DADB00499F82 /* Character */,
 				87C2BAA51501D90000499F82 /* PRPGConstruction.h */,
 				87C2BAA61501D90000499F82 /* PRPGMultiplayerBattle.h */,
 				87C2BAA71501D90000499F82 /* RPRGItem.h */,
@@ -164,6 +162,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		87C2BAB31501DACE00499F82 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				87C2BA9D1501D90000499F82 /* PRPGAgent.h */,
+				87C2BA9E1501D90000499F82 /* PRPGAgentEvolutionRule.h */,
+				87C2BA9F1501D90000499F82 /* PRPGAgentMove.h */,
+				87C2BAA01501D90000499F82 /* PRPGAgentMoveType.h */,
+				87C2BAA11501D90000499F82 /* PRPGAgentType.h */,
+			);
+			name = Agent;
+			sourceTree = "<group>";
+		};
+		87C2BAB41501DADB00499F82 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				87C2BAA31501D90000499F82 /* PRPGCharacter.h */,
+				87C2BAA41501D90000499F82 /* PRPGCharacterType.h */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -182,6 +201,7 @@
 				87C2BAB01501D90000499F82 /* PRPGConstruction.h in Headers */,
 				87C2BAB11501D90000499F82 /* PRPGMultiplayerBattle.h in Headers */,
 				87C2BAB21501D90000499F82 /* RPRGItem.h in Headers */,
+				87C2BAB61501DB2200499F82 /* CRPGBattleEvent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
