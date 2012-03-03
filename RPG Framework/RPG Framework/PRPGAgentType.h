@@ -14,8 +14,8 @@
 + @property (nonatomic, strong) NSArray * agent_types;
 - @property (nonatomic, strong) NSString * name;
 
-+ (NSArray *) getStrongTypesComparedOf:(PRPGAgentType * agent_type);
-+ (NSArray *) getWeakTypesComparedOf:(PRPGAgentType * agent_type);
++ (NSArray *) getStrongTypesComparedOf:(PRPGAgentType *)agent_type;
++ (NSArray *) getWeakTypesComparedOf:(PRPGAgentType *)agent_type;
 
 
 @end

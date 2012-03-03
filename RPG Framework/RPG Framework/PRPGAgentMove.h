@@ -19,7 +19,7 @@
 
 
 - (void) performMove;
-- (double) calculateNeutralDamageOfAgent(PRPGAgent * attacking_agent)OnAgent:(PRPGAgent * defending_agent);
+- (double) calculateNeutralDamageOfAgent(PRPGAgent *)attacking_agent OnAgent:(PRPGAgent * defending_agent);
 - (double) calculateDamageOfAgent(PRPGAgent * attacking_agent)OnAgent:(PRPGAgent * defending_agent);
 
 @end
