@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RPG Framework' target in the 'RPG Framework' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
