@@ -121,13 +121,11 @@
 		87C2BA781501D8EA00499F82 /* RPG Framework */ = {
 			isa = PBXGroup;
 			children = (
-				87C2BAB51501DB2200499F82 /* CRPGBattleEvent.h */,
+				87C2BAB71501DBD300499F82 /* Battle */,
 				87C2BAB31501DACE00499F82 /* Agent */,
-				87C2BAA21501D90000499F82 /* PRPGBattle.h */,
 				87C2BAB41501DADB00499F82 /* Character */,
-				87C2BAA51501D90000499F82 /* PRPGConstruction.h */,
-				87C2BAA61501D90000499F82 /* PRPGMultiplayerBattle.h */,
-				87C2BAA71501D90000499F82 /* RPRGItem.h */,
+				87C2BAB91501DBEF00499F82 /* Construction */,
+				87C2BAB81501DBE600499F82 /* Item */,
 				87C2BA7B1501D8EA00499F82 /* RPG_Framework.h */,
 				87C2BA7C1501D8EA00499F82 /* RPG_Framework.m */,
 				87C2BA791501D8EA00499F82 /* Supporting Files */,
@@ -181,6 +179,32 @@
 				87C2BAA41501D90000499F82 /* PRPGCharacterType.h */,
 			);
 			name = Character;
+			sourceTree = "<group>";
+		};
+		87C2BAB71501DBD300499F82 /* Battle */ = {
+			isa = PBXGroup;
+			children = (
+				87C2BAB51501DB2200499F82 /* CRPGBattleEvent.h */,
+				87C2BAA21501D90000499F82 /* PRPGBattle.h */,
+				87C2BAA61501D90000499F82 /* PRPGMultiplayerBattle.h */,
+			);
+			name = Battle;
+			sourceTree = "<group>";
+		};
+		87C2BAB81501DBE600499F82 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				87C2BAA71501D90000499F82 /* RPRGItem.h */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		87C2BAB91501DBEF00499F82 /* Construction */ = {
+			isa = PBXGroup;
+			children = (
+				87C2BAA51501D90000499F82 /* PRPGConstruction.h */,
+			);
+			name = Construction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
