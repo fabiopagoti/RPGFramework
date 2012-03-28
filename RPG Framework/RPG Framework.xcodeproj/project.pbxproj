@@ -8,25 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		87C2BA771501D8EA00499F82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2BA761501D8EA00499F82 /* Foundation.framework */; };
-		87C2BA7D1501D8EA00499F82 /* RPG_Framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2BA7C1501D8EA00499F82 /* RPG_Framework.m */; };
 		87C2BA851501D8EA00499F82 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2BA841501D8EA00499F82 /* SenTestingKit.framework */; };
 		87C2BA871501D8EA00499F82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2BA861501D8EA00499F82 /* UIKit.framework */; };
 		87C2BA881501D8EA00499F82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2BA761501D8EA00499F82 /* Foundation.framework */; };
 		87C2BA8B1501D8EA00499F82 /* libRPG Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2BA731501D8EA00499F82 /* libRPG Framework.a */; };
 		87C2BA911501D8EA00499F82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87C2BA8F1501D8EA00499F82 /* InfoPlist.strings */; };
 		87C2BA941501D8EA00499F82 /* RPG_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2BA931501D8EA00499F82 /* RPG_FrameworkTests.m */; };
-		87C2BAB61501DB2200499F82 /* CRPGBattleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAB51501DB2200499F82 /* CRPGBattleEvent.h */; };
-		87C2BAC51501DD3600499F82 /* RPRGItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BABA1501DD3600499F82 /* RPRGItem.h */; };
-		87C2BAC61501DD3600499F82 /* PRPGMultiplayerBattle.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BABB1501DD3600499F82 /* PRPGMultiplayerBattle.h */; };
-		87C2BAC71501DD3600499F82 /* PRPGConstruction.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BABC1501DD3600499F82 /* PRPGConstruction.h */; };
-		87C2BAC81501DD3600499F82 /* PRPGCharacterType.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BABD1501DD3600499F82 /* PRPGCharacterType.h */; };
-		87C2BAC91501DD3600499F82 /* PRPGCharacter.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BABE1501DD3600499F82 /* PRPGCharacter.h */; };
-		87C2BACA1501DD3600499F82 /* PRPGBattle.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BABF1501DD3600499F82 /* PRPGBattle.h */; };
-		87C2BACB1501DD3600499F82 /* PRPGAgentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAC01501DD3600499F82 /* PRPGAgentType.h */; };
-		87C2BACC1501DD3600499F82 /* PRPGAgentMoveType.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAC11501DD3600499F82 /* PRPGAgentMoveType.h */; };
-		87C2BACD1501DD3600499F82 /* PRPGAgentMove.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAC21501DD3600499F82 /* PRPGAgentMove.h */; };
-		87C2BACE1501DD3600499F82 /* PRPGAgentEvolutionRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAC31501DD3600499F82 /* PRPGAgentEvolutionRule.h */; };
-		87C2BACF1501DD3600499F82 /* PRPGAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2BAC41501DD3600499F82 /* PRPGAgent.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87907AA1150C13E4009AAB0C /* CRPGAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPGAgent.h; sourceTree = "<group>"; };
+		87907AA2150C13E4009AAB0C /* CRPGAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPGAgent.m; sourceTree = "<group>"; };
 		87C2BA731501D8EA00499F82 /* libRPG Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRPG Framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C2BA761501D8EA00499F82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87C2BA7A1501D8EA00499F82 /* RPG Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPG Framework-Prefix.pch"; sourceTree = "<group>"; };
@@ -168,6 +157,8 @@
 				87C2BAC21501DD3600499F82 /* PRPGAgentMove.h */,
 				87C2BAC31501DD3600499F82 /* PRPGAgentEvolutionRule.h */,
 				87C2BAC41501DD3600499F82 /* PRPGAgent.h */,
+				87907AA1150C13E4009AAB0C /* CRPGAgent.h */,
+				87907AA2150C13E4009AAB0C /* CRPGAgent.m */,
 			);
 			name = Agent;
 			sourceTree = "<group>";
@@ -214,18 +205,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C2BAB61501DB2200499F82 /* CRPGBattleEvent.h in Headers */,
-				87C2BAC51501DD3600499F82 /* RPRGItem.h in Headers */,
-				87C2BAC61501DD3600499F82 /* PRPGMultiplayerBattle.h in Headers */,
-				87C2BAC71501DD3600499F82 /* PRPGConstruction.h in Headers */,
-				87C2BAC81501DD3600499F82 /* PRPGCharacterType.h in Headers */,
-				87C2BAC91501DD3600499F82 /* PRPGCharacter.h in Headers */,
-				87C2BACA1501DD3600499F82 /* PRPGBattle.h in Headers */,
-				87C2BACB1501DD3600499F82 /* PRPGAgentType.h in Headers */,
-				87C2BACC1501DD3600499F82 /* PRPGAgentMoveType.h in Headers */,
-				87C2BACD1501DD3600499F82 /* PRPGAgentMove.h in Headers */,
-				87C2BACE1501DD3600499F82 /* PRPGAgentEvolutionRule.h in Headers */,
-				87C2BACF1501DD3600499F82 /* PRPGAgent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C2BA7D1501D8EA00499F82 /* RPG_Framework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +454,7 @@
 				87C2BA991501D8EA00499F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C2BA9A1501D8EA00499F82 /* Build configuration list for PBXNativeTarget "RPG FrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +463,7 @@
 				87C2BA9C1501D8EA00499F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
